@@ -124,6 +124,9 @@ table {
 	font-style: italic;
   }
 
+  /* CSS TITLE */
+
+
 html {
 	font-size: 62.5%;
 }
@@ -146,3 +149,17 @@ body {
 	width: 100%;
 	max-width: 124rem;
 }
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 2.4rem;
+	font-weight: bold;
+	margin: 1rem;
+}
+
+
+
+

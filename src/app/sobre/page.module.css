@@ -4,13 +4,13 @@
     justify-content: center;
     width: 100%;
     height: 8rem;
-    border: 0.2rem solid #f00;
+    border: 0.2rem solid #0f0;
     padding: 1rem;
     /* align-items: center; */
 }
 
 .txtTitulo {
-    color: red;
+    color: #0f0;
 
 
 }
