@@ -141,12 +141,14 @@ body {
 	font-size: normal;
 }
 
-.container {
+.containerGlobal {
 	/* border: 0.5rem solid #f00; */
 	display: flex;
+	padding-bottom: 2rem;
+	padding-top: 1rem;
 	flex-direction: column;
 	align-items: center;
-	width: 100%;
+	width: 98%;
 	max-width: 124rem;
 }
 
@@ -155,11 +157,34 @@ a {
 }
 
 h1 {
-	font-size: 2.4rem;
+	font-size: 3.2rem;
 	font-weight: bold;
 	margin: 1rem;
 }
 
+h2 {
+	font-size: 2.8rem;
+	margin: 0.6rem;
+}
+
+h3 {
+	font-size: 1.6ren;
+	margin: 0.3rem;
+	font-weight: bold;
+}
+
+
+@media screen and (max-width: 960px) {
+	html {
+		font-size: 50%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 37.2%;
+	}
+}
 
 
 
